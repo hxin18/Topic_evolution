@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FF48501C4EA48200723735 /* cokus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF48391C4EA48200723735 /* cokus.cpp */; };
+		27FF48511C4EA48200723735 /* dataset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF483C1C4EA48200723735 /* dataset.cpp */; };
+		27FF48521C4EA48200723735 /* lda-alpha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF483E1C4EA48200723735 /* lda-alpha.cpp */; };
+		27FF48531C4EA48200723735 /* lda-data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF48401C4EA48200723735 /* lda-data.cpp */; };
+		27FF48541C4EA48200723735 /* lda-estimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF48421C4EA48200723735 /* lda-estimate.cpp */; };
+		27FF48551C4EA48200723735 /* lda-inference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF48441C4EA48200723735 /* lda-inference.cpp */; };
+		27FF48561C4EA48200723735 /* lda-model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF48461C4EA48200723735 /* lda-model.cpp */; };
+		27FF48571C4EA48200723735 /* seperate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF48481C4EA48200723735 /* seperate.cpp */; };
+		27FF48581C4EA48200723735 /* sorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF484A1C4EA48200723735 /* sorting.cpp */; };
+		27FF48591C4EA48200723735 /* strtokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF484C1C4EA48200723735 /* strtokenizer.cpp */; };
+		27FF485A1C4EA48200723735 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27FF484E1C4EA48200723735 /* utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27FF480B1C4EA41A00723735 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27FF480D1C4EA41A00723735 /* newevo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = newevo; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FF48391C4EA48200723735 /* cokus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cokus.cpp; sourceTree = "<group>"; };
+		27FF483A1C4EA48200723735 /* cokus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cokus.h; sourceTree = "<group>"; };
+		27FF483B1C4EA48200723735 /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		27FF483C1C4EA48200723735 /* dataset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dataset.cpp; sourceTree = "<group>"; };
+		27FF483D1C4EA48200723735 /* dataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataset.h; sourceTree = "<group>"; };
+		27FF483E1C4EA48200723735 /* lda-alpha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "lda-alpha.cpp"; sourceTree = "<group>"; };
+		27FF483F1C4EA48200723735 /* lda-alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lda-alpha.h"; sourceTree = "<group>"; };
+		27FF48401C4EA48200723735 /* lda-data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "lda-data.cpp"; sourceTree = "<group>"; };
+		27FF48411C4EA48200723735 /* lda-data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lda-data.h"; sourceTree = "<group>"; };
+		27FF48421C4EA48200723735 /* lda-estimate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "lda-estimate.cpp"; sourceTree = "<group>"; };
+		27FF48431C4EA48200723735 /* lda-estimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lda-estimate.h"; sourceTree = "<group>"; };
+		27FF48441C4EA48200723735 /* lda-inference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "lda-inference.cpp"; sourceTree = "<group>"; };
+		27FF48451C4EA48200723735 /* lda-inference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lda-inference.h"; sourceTree = "<group>"; };
+		27FF48461C4EA48200723735 /* lda-model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "lda-model.cpp"; sourceTree = "<group>"; };
+		27FF48471C4EA48200723735 /* lda-model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lda-model.h"; sourceTree = "<group>"; };
+		27FF48481C4EA48200723735 /* seperate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = seperate.cpp; sourceTree = "<group>"; };
+		27FF48491C4EA48200723735 /* seperate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seperate.h; sourceTree = "<group>"; };
+		27FF484A1C4EA48200723735 /* sorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sorting.cpp; sourceTree = "<group>"; };
+		27FF484B1C4EA48200723735 /* sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorting.h; sourceTree = "<group>"; };
+		27FF484C1C4EA48200723735 /* strtokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strtokenizer.cpp; sourceTree = "<group>"; };
+		27FF484D1C4EA48200723735 /* strtokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strtokenizer.h; sourceTree = "<group>"; };
+		27FF484E1C4EA48200723735 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		27FF484F1C4EA48200723735 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FF480A1C4EA41A00723735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FF48041C4EA41900723735 = {
+			isa = PBXGroup;
+			children = (
+				27FF480F1C4EA41A00723735 /* newevo */,
+				27FF480E1C4EA41A00723735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27FF480E1C4EA41A00723735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FF480D1C4EA41A00723735 /* newevo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FF480F1C4EA41A00723735 /* newevo */ = {
+			isa = PBXGroup;
+			children = (
+				27FF48391C4EA48200723735 /* cokus.cpp */,
+				27FF483A1C4EA48200723735 /* cokus.h */,
+				27FF483B1C4EA48200723735 /* constant.h */,
+				27FF483C1C4EA48200723735 /* dataset.cpp */,
+				27FF483D1C4EA48200723735 /* dataset.h */,
+				27FF483E1C4EA48200723735 /* lda-alpha.cpp */,
+				27FF483F1C4EA48200723735 /* lda-alpha.h */,
+				27FF48401C4EA48200723735 /* lda-data.cpp */,
+				27FF48411C4EA48200723735 /* lda-data.h */,
+				27FF48421C4EA48200723735 /* lda-estimate.cpp */,
+				27FF48431C4EA48200723735 /* lda-estimate.h */,
+				27FF48441C4EA48200723735 /* lda-inference.cpp */,
+				27FF48451C4EA48200723735 /* lda-inference.h */,
+				27FF48461C4EA48200723735 /* lda-model.cpp */,
+				27FF48471C4EA48200723735 /* lda-model.h */,
+				27FF48481C4EA48200723735 /* seperate.cpp */,
+				27FF48491C4EA48200723735 /* seperate.h */,
+				27FF484A1C4EA48200723735 /* sorting.cpp */,
+				27FF484B1C4EA48200723735 /* sorting.h */,
+				27FF484C1C4EA48200723735 /* strtokenizer.cpp */,
+				27FF484D1C4EA48200723735 /* strtokenizer.h */,
+				27FF484E1C4EA48200723735 /* utils.cpp */,
+				27FF484F1C4EA48200723735 /* utils.h */,
+			);
+			path = newevo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FF480C1C4EA41A00723735 /* newevo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FF48141C4EA41A00723735 /* Build configuration list for PBXNativeTarget "newevo" */;
+			buildPhases = (
+				27FF48091C4EA41A00723735 /* Sources */,
+				27FF480A1C4EA41A00723735 /* Frameworks */,
+				27FF480B1C4EA41A00723735 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newevo;
+			productName = newevo;
+			productReference = 27FF480D1C4EA41A00723735 /* newevo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FF48051C4EA41900723735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangxin;
+				TargetAttributes = {
+					27FF480C1C4EA41A00723735 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 27FF48081C4EA41900723735 /* Build configuration list for PBXProject "newevo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27FF48041C4EA41900723735;
+			productRefGroup = 27FF480E1C4EA41A00723735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FF480C1C4EA41A00723735 /* newevo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FF48091C4EA41A00723735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FF48581C4EA48200723735 /* sorting.cpp in Sources */,
+				27FF48521C4EA48200723735 /* lda-alpha.cpp in Sources */,
+				27FF48531C4EA48200723735 /* lda-data.cpp in Sources */,
+				27FF48511C4EA48200723735 /* dataset.cpp in Sources */,
+				27FF48551C4EA48200723735 /* lda-inference.cpp in Sources */,
+				27FF48501C4EA48200723735 /* cokus.cpp in Sources */,
+				27FF485A1C4EA48200723735 /* utils.cpp in Sources */,
+				27FF48541C4EA48200723735 /* lda-estimate.cpp in Sources */,
+				27FF48571C4EA48200723735 /* seperate.cpp in Sources */,
+				27FF48561C4EA48200723735 /* lda-model.cpp in Sources */,
+				27FF48591C4EA48200723735 /* strtokenizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27FF48121C4EA41A00723735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27FF48131C4EA41A00723735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27FF48151C4EA41A00723735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27FF48161C4EA41A00723735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FF48081C4EA41900723735 /* Build configuration list for PBXProject "newevo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FF48121C4EA41A00723735 /* Debug */,
+				27FF48131C4EA41A00723735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FF48141C4EA41A00723735 /* Build configuration list for PBXNativeTarget "newevo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FF48151C4EA41A00723735 /* Debug */,
+				27FF48161C4EA41A00723735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FF48051C4EA41900723735 /* Project object */;
+}
